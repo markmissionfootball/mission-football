@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #333;
+  background: #e8e4de;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Diamond divider used across sections */
+.diamond-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.diamond-divider::before,
+.diamond-divider::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: currentColor;
+}
+
+.diamond-divider .diamond {
+  width: 16px;
+  height: 16px;
+  border: 1px solid currentColor;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* Stat card gradient backgrounds */
+.stat-card-red {
+  background: linear-gradient(135deg, #d12132 0%, #8b0000 50%, #d12132 100%);
+}
+
+.stat-card-gold {
+  background: linear-gradient(135deg, #fcb423 0%, #e8a520 50%, #fcb423 100%);
+}
+
+/* Texture overlay for stat cards */
+.stat-card-red::before,
+.stat-card-gold::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+  opacity: 0.1;
+  pointer-events: none;
 }

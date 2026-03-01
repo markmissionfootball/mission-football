@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "diablo-red": "#d12132",
+        "diablo-gold": "#fcb423",
+        "diablo-dark": "#1a1a1a",
+        "diablo-maroon": "#8B0000",
+      },
+      fontFamily: {
+        sans: ['"Open Sans"', "Arial", "Helvetica", "sans-serif"],
       },
     },
   },
