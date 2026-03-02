@@ -53,6 +53,7 @@ const navItems: NavItem[] = [
     label: "More",
     href: "#",
     dropdown: [
+      { label: "Social Media", href: "/social" },
       { label: "Golf Tournament", href: "/golf-tournament" },
       { label: "Mission Armed Forces", href: "/mission-armed-forces" },
       { label: "7 on 7 Tournament", href: "/7-on-7-tournament" },
