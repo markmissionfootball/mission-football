@@ -73,7 +73,7 @@ export default function Header() {
       {/* Desktop Nav */}
       <nav className="hidden lg:flex items-center justify-center max-w-7xl mx-auto px-4 relative">
         {/* Left nav items */}
-        <div className="flex items-center gap-1">
+        <div className="flex-1 flex items-center justify-end gap-1">
           {navItems.slice(0, 3).map((item) => (
             <div
               key={item.label}
@@ -126,7 +126,7 @@ export default function Header() {
 
               {/* Dropdown */}
               {item.dropdown && openDropdown === item.label && (
-                <div className="absolute top-full left-0 bg-white shadow-lg min-w-[220px] py-2 z-50">
+                <div className="absolute top-full left-0 bg-white dark:bg-neutral-800 shadow-lg min-w-[220px] py-2 z-50">
                   {item.dropdown.map((sub) =>
                     sub.external ? (
                       <a
@@ -134,7 +134,7 @@ export default function Header() {
                         href={sub.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block px-5 py-2 text-sm text-gray-700 hover:bg-diablo-red hover:text-white transition-colors"
+                        className="block px-5 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-diablo-red hover:text-white transition-colors"
                       >
                         {sub.label}
                       </a>
@@ -142,7 +142,7 @@ export default function Header() {
                       <Link
                         key={sub.label}
                         href={sub.href}
-                        className="block px-5 py-2 text-sm text-gray-700 hover:bg-diablo-red hover:text-white transition-colors"
+                        className="block px-5 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-diablo-red hover:text-white transition-colors"
                       >
                         {sub.label}
                       </Link>
@@ -167,7 +167,7 @@ export default function Header() {
         </Link>
 
         {/* Right nav items */}
-        <div className="flex items-center gap-1">
+        <div className="flex-1 flex items-center gap-1">
           {navItems.slice(3).map((item) => (
             <div
               key={item.label}
@@ -211,7 +211,7 @@ export default function Header() {
               )}
 
               {item.dropdown && openDropdown === item.label && (
-                <div className="absolute top-full left-0 bg-white shadow-lg min-w-[220px] py-2 z-50">
+                <div className="absolute top-full left-0 bg-white dark:bg-neutral-800 shadow-lg min-w-[220px] py-2 z-50">
                   {item.dropdown.map((sub) =>
                     sub.external ? (
                       <a
@@ -219,7 +219,7 @@ export default function Header() {
                         href={sub.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block px-5 py-2 text-sm text-gray-700 hover:bg-diablo-red hover:text-white transition-colors"
+                        className="block px-5 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-diablo-red hover:text-white transition-colors"
                       >
                         {sub.label}
                       </a>
@@ -227,7 +227,7 @@ export default function Header() {
                       <Link
                         key={sub.label}
                         href={sub.href}
-                        className="block px-5 py-2 text-sm text-gray-700 hover:bg-diablo-red hover:text-white transition-colors"
+                        className="block px-5 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-diablo-red hover:text-white transition-colors"
                       >
                         {sub.label}
                       </Link>

@@ -80,7 +80,7 @@ export default function QuickLinks() {
             <div className="text-diablo-red group-hover:text-diablo-gold transition-colors">
               {link.icon}
             </div>
-            <span className="text-sm font-bold uppercase tracking-wider text-gray-800 group-hover:text-diablo-gold transition-colors">
+            <span className="text-sm font-bold uppercase tracking-wider text-gray-800 dark:text-gray-200 group-hover:text-diablo-gold transition-colors">
               {link.label}
             </span>
           </Link>

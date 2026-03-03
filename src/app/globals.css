@@ -14,6 +14,12 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #333;
   background: #e8e4de;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark body {
+  color: #e5e5e5;
+  background: #111111;
 }
 
 /* Diamond divider used across sections */
