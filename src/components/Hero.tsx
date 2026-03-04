@@ -10,7 +10,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="/videos/jumbotron-final.mp4"
+          src="https://aebq0sqdorvktonm.public.blob.vercel-storage.com/jumbotron%20final.mp4"
           type="video/mp4"
         />
       </video>
