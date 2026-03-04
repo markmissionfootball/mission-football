@@ -33,6 +33,7 @@ const navItems: NavItem[] = [
       { label: "JV/Freshmen Schedules", href: "/jv-freshmen-schedules" },
       { label: "JV/Freshman Roster", href: "/jv-freshman-roster" },
       { label: "Records", href: "/records" },
+      { label: "Program History", href: "/program-history" },
       { label: "Alumni", href: "/alumni" },
     ],
   },

@@ -21,7 +21,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
         <p className="text-diablo-gold text-sm md:text-base font-bold uppercase tracking-[0.3em] mb-4">
-          Mission Made
+          Mission Driven
         </p>
 
         {/* Diamond divider */}

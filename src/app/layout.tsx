@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Mission Viejo High School Football | Home of the Diablos | Tradition Never Graduates | CIF Champions | CA State Champions",
   description:
-    "Official website of the Mission Viejo High School Diablos Football program. Over 50 years of excellence, 2x State Champions, 8x CIF Champions, 26x South Coast League Champions.",
+    "Official website of the Mission Viejo High School Diablos Football program. Over 50 years of excellence, 3x California State Champions, 8x CIF Champions, 26x South Coast League Champions.",
 };
 
 export default function RootLayout({
