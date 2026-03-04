@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useRef } from "react";
 
 const socialAccounts = [
@@ -91,16 +90,8 @@ export default function Social() {
   return (
     <main className="min-h-screen bg-[#e8e4de]">
       {/* Hero banner */}
-      <section className="relative h-[340px] md:h-[420px] flex items-center justify-center overflow-hidden">
-        <Image
-          src="/images/team-photo.webp"
-          alt="Mission Viejo Diablos Social Media"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(31,35,44,0.7)] to-[rgb(30,35,43)]" />
-        <div className="relative z-10 text-center">
+      <section className="bg-diablo-dark flex items-center justify-center py-16 md:py-20">
+        <div className="text-center">
           <div className="flex items-center justify-center gap-0 text-gray-400 mb-4">
             <span className="w-[60px] h-[1px] bg-current" />
             <span className="w-4 h-4 border border-current rotate-45" />
