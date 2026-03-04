@@ -107,6 +107,9 @@ export default function Footer() {
           Copyright &copy; {new Date().getFullYear()} MVHS Football. All Rights
           Reserved.
         </p>
+        <p className="text-center text-gray-500 text-[10px] italic pb-4">
+          powered by EndZoneAI
+        </p>
       </div>
     </footer>
   );

@@ -10,7 +10,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://missionfootball.com/wp-content/uploads/2025/02/MVHS-Regular-SZN-Hype-Mix-Playoffs-24.mp4"
+          src="/videos/jumbotron-final.mp4"
           type="video/mp4"
         />
       </video>

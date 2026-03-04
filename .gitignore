@@ -37,3 +37,8 @@ next-env.d.ts
 
 # Claude local settings
 .claude/
+
+# Large video files (too big for Git — host via CDN or Vercel Blob)
+public/videos/*.mp4
+public/videos/*.webm
+public/videos/*.mov
