@@ -5,7 +5,7 @@ const headCoach = {
   title: "Head Coach",
   bio: "Chad Johnson was named head coach at Mission Viejo High School in December 2017, taking over for the retiring Bob Johnson. Before leading the Diablos, Johnson spent 12 seasons as an offensive coordinator at St. John Bosco and Trabuco Hills, where he was part of two state championships and one national championship. In 2023, he led Mission Viejo to its second state championship with a dominant 27-14 victory over De La Salle in the CIF State Division 1-AA title game. A graduate of El Toro High School and now in his 24th year of coaching, Johnson also serves as a coach in the annual Under Armour All-America Game.",
   image:
-    "https://missionfootball.com/wp-content/uploads/2024/09/MV_FB_LOGO_WLACES.png",
+    "/images/mv-logo.png",
 };
 
 const coachingStaff = [
@@ -22,7 +22,7 @@ export default function CoachingStaff() {
       {/* Hero banner */}
       <section className="relative h-[340px] md:h-[420px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://missionfootball.com/wp-content/uploads/2025/08/24_MVHS_Football_Team_Varsity-scaled.jpg"
+          src="/images/team-photo.webp"
           alt="Mission Viejo Diablos Coaching Staff"
           fill
           className="object-cover"

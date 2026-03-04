@@ -25,7 +25,7 @@ export default function DiabloGear() {
       {/* Hero banner */}
       <section className="relative h-[340px] md:h-[420px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://missionfootball.com/wp-content/uploads/2025/08/24_MVHS_Football_Team_Varsity-scaled.jpg"
+          src="/images/team-photo.webp"
           alt="Mission Viejo Diablos Gear"
           fill
           className="object-cover"

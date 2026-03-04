@@ -15,7 +15,7 @@ export default function BuildingChampions() {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative aspect-[1/2]">
               <Image
-                src="https://missionfootball.com/wp-content/uploads/2024/09/2-1.png"
+                src="/images/action-catch.webp"
                 alt="Mission Viejo football player"
                 fill
                 className="object-cover"
@@ -23,7 +23,7 @@ export default function BuildingChampions() {
             </div>
             <div className="relative aspect-[1/2]">
               <Image
-                src="https://missionfootball.com/wp-content/uploads/2024/09/1-1.png"
+                src="/images/team-photo.webp"
                 alt="Mission Viejo football team and Division 1-AA State Champions"
                 fill
                 className="object-cover"

@@ -158,7 +158,7 @@ export default function Header() {
         {/* Center logo */}
         <Link href="/" className="mx-6 flex-shrink-0">
           <Image
-            src="https://missionfootball.com/wp-content/uploads/2024/09/MV_FB_LOGO_WLACES.png"
+            src="/images/mv-logo.png"
             alt="Mission Viejo High School Football"
             width={80}
             height={80}
@@ -245,7 +245,7 @@ export default function Header() {
       <div className="lg:hidden flex items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center">
           <Image
-            src="https://missionfootball.com/wp-content/uploads/2024/09/MV_FB_LOGO_WLACES.png"
+            src="/images/mv-logo.png"
             alt="Mission Viejo High School Football"
             width={60}
             height={60}

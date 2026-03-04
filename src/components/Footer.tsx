@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="text-center pb-8 px-4">
         <div className="flex justify-center mb-4">
           <Image
-            src="https://missionfootball.com/wp-content/uploads/2024/09/MV_FB_LOGO_WLACES.png"
+            src="/images/mv-logo.png"
             alt="MVHS Football Logo"
             width={80}
             height={80}

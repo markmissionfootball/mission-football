@@ -10,7 +10,7 @@ export default function ProgramCalendar() {
       {/* Hero banner with team photo */}
       <section className="relative h-[340px] md:h-[420px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://missionfootball.com/wp-content/uploads/2025/08/24_MVHS_Football_Team_Varsity-scaled.jpg"
+          src="/images/team-photo.webp"
           alt="Mission Viejo Diablos Varsity Football Team"
           fill
           className="object-cover"
@@ -37,7 +37,7 @@ export default function ProgramCalendar() {
           </h2>
           <div className="mt-8">
             <Image
-              src="https://missionfootball.com/wp-content/uploads/2025/08/IMG_2995.png"
+              src="/images/team-photo.webp"
               alt="2025 Mission Viejo Diablos Football Schedule"
               width={1080}
               height={1350}

@@ -7,7 +7,7 @@ export default function DiabloPride() {
       <div className="max-w-4xl mx-auto px-4 pt-16">
         <div className="relative w-full aspect-[16/10] mb-10">
           <Image
-            src="https://missionfootball.com/wp-content/uploads/2024/09/111.png"
+            src="/images/action-catch.webp"
             alt="Mission Viejo Diablos football action"
             fill
             className="object-cover"

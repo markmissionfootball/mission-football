@@ -1182,10 +1182,10 @@ export const records: ProgramRecord[] = [
 ];
 
 /** Unique player names across all honors, sorted alphabetically. */
-export const allPlayers: string[] = [...new Set(honors.map(h => h.playerName))].sort();
+export const allPlayers: string[] = Array.from(new Set(honors.map(h => h.playerName))).sort();
 
 /** All unique years, sorted descending (most recent first). */
-export const allYears: number[] = [...new Set(honors.map(h => h.year))].sort((a, b) => b - a);
+export const allYears: number[] = Array.from(new Set(honors.map(h => h.year))).sort((a, b) => b - a);
 
 /** All unique categories. */
-export const allCategories: string[] = [...new Set(honors.map(h => h.category))].sort();
+export const allCategories: string[] = Array.from(new Set(honors.map(h => h.category))).sort();
