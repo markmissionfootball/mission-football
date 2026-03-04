@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { honors, records, allPlayers, allYears, allCategories } from "../../data/programHistory";
+import { honors, records, allPlayers, allYears } from "../../data/programHistory";
 import type { HistoryHonor, ProgramRecord } from "../../data/programHistory";
 
 type ViewMode = "category" | "timeline" | "players";
